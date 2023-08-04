@@ -1,0 +1,54 @@
+.container {
+    font-family: Arial, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-entry {
+    position: relative; /* To position the close button */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.phone {
+    font-size: 14px;
+    color: #777;
+}
+/* heading */
