@@ -1,4 +1,4 @@
-# Contact App
+# Contact Web App
 
 The Contact App is a simple web application built using Express.js, EJS, and MongoDB with Mongoose as the ODM (Object Data Modeling) tool. The app allows users to manage their contacts by adding new contacts with names and phone numbers and deleting existing contacts. All changes made to contacts are reflected in the backend MongoDB database.
 
